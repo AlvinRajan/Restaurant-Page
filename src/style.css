@@ -1,0 +1,90 @@
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:url(./img/restaurant.jpg);
+    background-size: cover;
+}
+nav{
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin: 30px;
+    padding: 10px;
+    color: #fff;
+    background-color: #c9af1bf1;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+}
+button:hover{
+    background-color: #ffde07f8;
+    backdrop-filter: blur(20px);
+    color: #ffffff;
+    box-shadow: 0px 0px 10px #ffe120d5;
+}
+.home-page h1{
+    color: #e9e50d;
+    font-family: 'Times New Roman', Times, serif;
+}
+.home-page p{
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu-list{
+    display: flex;
+    justify-content: center;
+}
+table {
+    width: 500px;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: center;
+    backdrop-filter: blur(20px);
+}
+  
+th, td {
+    padding: 12px 15px;
+}
+  
+th{
+    background-color: #2b260ad5;
+    color: #ffffff;
+}
+  
+tr {
+    border-bottom: 1px solid #ebebeb;
+    background: none;
+    color: #fff;
+}
+tr:hover{
+    background-color: rgba(33, 36, 36, 0.733);
+}
+.contact-list{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.contact-lists{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    color: #fff;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.contact-lists p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
